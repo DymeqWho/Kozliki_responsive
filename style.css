@@ -1,0 +1,106 @@
+@media only screen and (min-width: 482px)
+{
+/*body*/
+	body
+	{
+		background-image: url('rzeka_obraz.jpg');
+		/* position of backgoud image */
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+		/*end of position of backgoud image */
+	}
+/*end of body*/
+
+/*header*/
+	header
+		{
+			font-size: 180%;
+		}
+/*end of header*/
+
+/*element of the header "w Koźlikach"*/
+	span#kozliki
+		{
+			display: block;
+		}
+/*end of element of the header "w Koźlikach"*/
+
+/*change of menu display for NONresponsive view*/
+		#menu 
+		{
+			display:flex;
+			width: 420px;
+		}
+/*end of change of menu display for NONresponsive view*/
+
+/*position and appearance of flags class*/
+		.float
+			{
+				float:left;
+				font-size: 24px;
+				opacity: 0.7;
+			}
+			
+			.float:hover
+			{
+				opacity:1;
+			}
+/*end of position and appearance of flags class*/
+
+/*position to each other of flags*/	
+		#polska
+		{
+			padding-right:20px;
+		}
+	
+		#ukraina
+			{
+				padding-left:20px;
+				padding-right:20px;
+			}
+			
+		#anglia
+		{
+			padding-left:20px;
+		}	
+		
+/* end of position to each other of flags*/		
+				
+/*style of hover anchor*/
+	a:hover
+		{
+			color: red;
+		}
+/*end of style of anchor*/
+
+/*logo facebook info NONresponsive */
+			span#facebook_responsive_logo
+				{
+					display: none; /*big logo off*/	
+				}
+/*end of logo facebook info NONresponsive */
+
+/*logo facebook info responsive */		
+			#facebook
+			{
+				width: 150px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 5%;
+			}
+			
+			div#facebook_logo
+				{
+					display: block; /*small logo on*/								
+				}
+/*end of logo facebook info responsive */
+		
+/*style of facebook hover anchor. */
+	#facebook a:hover
+		{
+			color: red;
+		}
+/*end of style of facebook hover anchor*/
+}

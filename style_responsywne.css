@@ -1,0 +1,113 @@
+/*body*/
+	body
+	{
+		margin: 0 !important; /*page body will not have margin*/
+		padding:0 !important; /*page body will not have padding*/
+		font-family: 'Roboto Slab', serif; /*all fonts on page will be this fonts*/
+		background-color: black; /*all page will be covered black in the background*/
+		background-image: url('furtka_responsywna.jpg'); /*this photo should appear over the background color*/
+	
+	/* position of backgoud image */
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: cover;
+			background-attachment: fixed;
+	/*end of position of backgoud image */
+	
+	/*position of elements on the page*/
+			position: relative;
+	/* end of position of elements on the page */
+	
+	/* appearience of the fonts */
+			color:white; /* color of fonts*/
+			text-align: center; /*text will be in the center of object*/
+			text-shadow: -1px 1px 0 #000, /* there will appear border around letters */
+								   1px 1px 0 #000, 
+							       1px -1px 0 #000, 
+							      -1px -1px 0 #000;
+	/*end of appearience of the fonts */
+	}
+/*end of body*/
+
+/*header*/
+	header
+	{
+		font-size: 140%;
+	}
+/*end of header*/
+
+/*motto*/
+	#motto
+	{
+		margin-left: 60%;
+		font-family: 'Pattaya', sans-serif !important;
+		font-size: 1.2em;
+		padding-top:1%;
+		padding-bottom:2%;
+	}
+/*end of motto*/
+
+/*menu*/
+	#menu
+		{
+			width: 120px; /*width of menu is also width of class=flagi*/
+			margin: auto; /*centers*/
+			display: block;
+			
+		}
+
+/*end of menu*/
+
+/*class=flagi*/
+	.flagi
+		{
+			height: 120px;
+			padding: 1%;
+		}
+/*end of class=flagi*/
+
+/*style of anchor*/
+	a:link
+		{
+			text-decoration: none;
+			color: white;
+		}
+/*end of style of anchor*/
+
+/*style of visited anchor*/
+	a:visited
+	{
+			color:white;
+	}
+/*end of style of visited anchor*/
+
+/*facebook info*/
+	#facebook
+		{
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+/*end of facebook info*/
+
+/*logo facebook info responsive */
+	span#facebook_responsive_logo
+		{
+			display:block; /*big logo on*/
+			width: 100px;
+			margin-left: auto;
+			margin-right: auto;			
+		}
+/*end of logo facebook info responsive */
+
+/*logo facebook info NONresponsive */
+	div#facebook_logo
+		{
+			display:none; /*small logo off*/
+		}
+/*end of logo facebook info NONresponsive */
+
+	footer
+		{
+			vertical-align: bottom;
+			margin-top: 5%;
+		}
