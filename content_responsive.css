@@ -1,0 +1,57 @@
+/*body*/
+body
+{
+		margin: 0 !important; /*page body will not have margin*/
+		padding:0 !important; /*page body will not have padding*/
+		font-family: 'Roboto Slab', serif; /*all fonts on page will be this fonts*/
+		background-color: rgb(190, 190, 192); /*all page will be covered with some color in the background*/
+		/* appearience of the fonts */
+			color:white; /* color of fonts*/
+			text-align: center; /*text will be in the center of object*/
+			text-shadow: -1px 1px 0 #000, /* there will appear border around letters */
+								   1px 1px 0 #000, 
+							       1px -1px 0 #000, 
+							      -1px -1px 0 #000;
+	/*end of appearience of the fonts */
+		/*position of elements on the page*/
+			position: absolute;
+	/* end of position of elements on the page */
+			
+}
+/*end of body*/
+
+#list
+	{
+		padding: 8px;
+		position: relative;
+		
+	}
+	
+
+	.list_a
+	{
+		display:none;
+		animation: show;
+	}
+	#menu
+	{
+		display:block;
+	}
+	
+	
+
+	
+		
+header
+	{
+	margin-top: 2%;
+	position: relative;
+	margin: 1%;
+	}
+
+
+
+
+
+
+
