@@ -220,8 +220,8 @@ h2
 
 #welcome
 {
-	font-style: 'Roboto Slab', serif;
-	font-size:18px;
+	
+	font-size:19px;
 }
 
 h4
@@ -264,6 +264,34 @@ h4
 	font-size: 20px;
 }
 
+#aktualnosci_text >p
+{
+	text-indent: 5%;
+}
+
+#sport_text >p
+{
+	text-indent: 5%;
+}
+
+#sport_text a:link
+{
+	color:#0000cc;
+}
+#sport_text a:active
+{
+	color:#0000cc;
+}
+#sport_text a:visited
+{
+	color:#0000cc;
+}
+
+#sport_text a:hover
+{
+	color:red;
+}
+
 #lokalizacja_text
 {
 	width: 300px;
@@ -277,6 +305,15 @@ h4
 	font-weight:bold;
 }	
 	
+	
+#youtube_text
+{
+	text-align:center;
+}	
+#telewizja_text
+{
+	text-align:center;
+}	
 	
 #bottom
 {
