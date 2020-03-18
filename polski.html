@@ -862,10 +862,27 @@ Statut oraz jego zmiany wchodzą w życie po uprawomocnieniu się stosownego pos
 <!--refreshing CSS -->
 
 <script>
-    const mainStyles = document.getElementById('main-styles');
-    const timestamp = new Date().getTime();
-​
-    mainStyles.setAttribute('href', `./strona.css?time=${timestamp}`)
+    const linkedStylesheets = document.querySelectorAll('link[rel="stylesheet"]');
+const timestamp = new Date().getTime();
+
+function removeQueryParam(url) {
+  if (!url) {
+    return;
+  }
+  return url.split('?')[0];
+}
+
+function main() {
+  for (const linkedStylesheet of linkedStylesheets) {
+    const url = removeQueryParam(linkedStylesheet.getAttribute('href'));
+    if (url) {
+      linkedStylesheet.setAttribute('href', `${url}?time=${timestamp}`)
+    }
+  }
+}
+
+main();
+
   </script>
   
 <!--end of refreshing CSS -->
