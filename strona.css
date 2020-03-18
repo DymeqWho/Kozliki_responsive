@@ -292,6 +292,24 @@ h4
 	color:red;
 }
 
+#link_lira a:link
+{
+	color:#0000cc;
+}
+#link_lira a:active
+{
+	color:#0000cc;
+}
+#link_lira a:visited
+{
+	color:#0000cc;
+}
+
+#link_lira a:hover
+{
+	color:red;
+}
+
 #lokalizacja_text
 {
 	width: 300px;
@@ -314,6 +332,14 @@ h4
 {
 	text-align:center;
 }	
+
+.movie
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
 	
 #bottom
 {
